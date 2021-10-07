@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/beautiful-luxury-outdoor-swimming-pool-hotel-resort.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: flex;
+}
+#form{
+    margin: auto;
+    background-color: black;
+    height: 400px;
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 0.7;
+}
+
+#first-group{
+    border: 2px solid lime;
+    width: 400px;
+    margin-top: 8px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+#content{
+    border: 1px solid white;
+    margin: 10px;
+    margin-left: 8px;   
+    padding: 5px;
+}
+
+#content #input-group{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 8px;
+    width: 300px;
+    color: white;
+}
+
+::placeholder{
+    color: wheat;
+}
+
+.fa{
+    display: inline-block;
+    color: red;
+    border-right: 1px solid white;
+    padding: 8px;
+    margin-left: 8px;
+    opacity: 100px;
+}
+
+
+#second-group{
+    border: 2px solid lime;
+    width: 400px;
+    margin-top:15px;
+    margin-left: 475px;
+}
+
+#submit-btn{
+    margin-top: 8px;
+    margin-left: 360px;
+    background: transparent;
+    color: white;
+    width: 150px;
+    border: 2px solid lime;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+}
+
+#submit-btn:hover{
+    color: lime;
+}
+
